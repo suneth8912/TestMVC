@@ -1,0 +1,4 @@
+c:\Users\sun\documents\visual studio 2015\Projects\MVC\Data\bin\Debug\Data.dll
+c:\Users\sun\documents\visual studio 2015\Projects\MVC\Data\bin\Debug\Data.pdb
+c:\Users\sun\documents\visual studio 2015\Projects\MVC\Data\obj\Debug\Data.dll
+c:\Users\sun\documents\visual studio 2015\Projects\MVC\Data\obj\Debug\Data.pdb
