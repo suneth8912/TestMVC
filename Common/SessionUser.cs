@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Common.Enum;
 
 namespace Common
 {
     public class SessionUser
     {
-        public int  Role { get; set; }
+        public UserRole Role { get; set; }
 
-        public List<string> PrivilegeList { get; set; }
+        public List<UserPrivilege> PrivilegeList { get; set; }
     }
 }

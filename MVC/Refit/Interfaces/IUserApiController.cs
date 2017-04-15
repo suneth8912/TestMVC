@@ -11,8 +11,8 @@ namespace MVC.Refit.Interfaces
     [ApiAuthenticationHeader]
     public interface IUserApiController
     {
-        [Post("/AuthenticateUser")]
-        Task<LoginOperationResult> AuthenticateUser(UserDto User);
+        //[Post("/AuthenticateUser")]
+        //Task<LoginOperationResult> AuthenticateUser(UserDto User);
 
     }
 }
