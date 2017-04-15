@@ -44,7 +44,7 @@
     <Compile Include="ApplicaionSession.cs" />
     <Compile Include="AuthorizationUtility.cs" />
     <Compile Include="Constant.cs" />
-    <Compile Include="Entities\Class1.cs" />
+    <Compile Include="Entities\UserDto.cs" />
     <Compile Include="Enum.cs" />
     <Compile Include="Logging\Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

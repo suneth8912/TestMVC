@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace MVC.RefitInterfaces
+namespace MVC.Refit
 {
-    public class ApiAuthenticationHeader
+    public class ApiAuthenticationHeaderAttribute
     {
     }
 }
