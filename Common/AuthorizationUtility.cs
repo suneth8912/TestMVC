@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace Common
 {
-    class AuthorizationUtility
+
+
+
+    public class AuthorizationUtility
     {
+        private static ApplicaionSession session = new ApplicaionSession();
+
+        public static bool IsPrivileged(UserRole userRole)
+        {
+            return session.SessionUser != null && session.SessionUser.Role == userRole;
+        }
+
     }
 }

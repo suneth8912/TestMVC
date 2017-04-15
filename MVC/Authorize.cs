@@ -7,10 +7,8 @@ namespace MVC
 {
     public class Authorize
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        public  static bool isAuthorized()
+
+        private  static bool isAuthorized()
         {
             return true;
         }

@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace Common
 {
-    class Enum
+    public class Constant
     {
-       public enum Privilages {
-            Admin = 1,
-            Employee = 2
-        }
-
+        public const string UserSession = "UserSession";
     }
 }
