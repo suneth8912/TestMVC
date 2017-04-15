@@ -9,5 +9,7 @@ namespace Common
     public class SessionUser
     {
         public int  Role { get; set; }
+
+        public List<string> PrivilegeList { get; set; }
     }
 }

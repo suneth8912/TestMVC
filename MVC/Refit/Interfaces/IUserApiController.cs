@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace MVC.Refit.Interfaces
 {
+    [ApiAuthenticationHeader]
     public interface IUserApiController
     {
         [Post("/AuthenticateUser")]

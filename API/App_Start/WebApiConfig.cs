@@ -14,8 +14,16 @@ namespace API
         {
             // Web API configuration and services
             // Configure Web API to use only bearer token authentication.
+
             config.SuppressDefaultHostAuthentication();
             config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
+
+            // Web API configuration and services
+            //Enable Corse
+            //allow globally for any
+            //var corseAttribute = new EnableCorsAttribute("*", "*", "*");
+            //config.EnableCors(corseAttribute);
+
 
             // Web API routes
             config.MapHttpAttributeRoutes();
@@ -25,6 +33,8 @@ namespace API
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            //GlobalConfiguration.Configuration.Filters.Add(new MyGoWirelessAPIExceptionFilter());
         }
     }
 }

@@ -13,5 +13,10 @@ namespace Common
             Employee = 2
         }
 
+        public enum UserPrivilege
+        {
+            None = 0
+        }
+
     }
 }

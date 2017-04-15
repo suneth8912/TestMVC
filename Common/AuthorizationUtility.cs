@@ -8,11 +8,16 @@ using static Common.Enum;
 namespace Common
 {
 
-
-
     public class AuthorizationUtility
     {
         private static ApplicaionSession session = new ApplicaionSession();
+
+
+        public static bool IsPrivileged(UserPrivilege userPrivilage)
+        {
+            return session.SessionUser != null && session.SessionUser.PrivilegeList.Any(p => p == userPrivilage);
+        }
+
 
         public static bool IsPrivileged(UserRole userRole)
         {
