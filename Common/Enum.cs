@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Common
 {
-    class Enum
+    public class Enum
     {
-       public enum Privilages {
+       public enum UserRole {
             Admin = 1,
             Employee = 2
         }

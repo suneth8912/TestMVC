@@ -8,6 +8,6 @@ namespace Common
 {
     public class SessionUser
     {
-
+        public int  Role { get; set; }
     }
 }
